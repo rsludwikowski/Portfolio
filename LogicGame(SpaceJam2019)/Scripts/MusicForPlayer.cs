@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MusicForPlayer : MonoBehaviour
 {
-    public AudioSource soundBitch;
+    public AudioSource soundBi;
 
     bool quiet = true;
 
@@ -23,8 +23,8 @@ public class MusicForPlayer : MonoBehaviour
         {
             if (quiet)
             {
-                soundBitch.Play();
-                soundBitch.loop = true;
+                soundBi.Play();
+                soundBi.loop = true;
                 quiet = false;
             }
         }
@@ -32,7 +32,7 @@ public class MusicForPlayer : MonoBehaviour
         {
             if (!quiet)
             {
-                soundBitch.Stop();
+                soundBi.Stop();
                 quiet = true;
             }
         }
