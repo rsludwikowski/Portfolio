@@ -10,7 +10,7 @@ public class TPLevel : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        Debug.Log("COL KURWA");
+        Debug.Log("COL");
         if (col.tag == "Player")
         {
             Debug.Log("NO PLAYER NO");
