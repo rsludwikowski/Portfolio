@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
 
-public class VignetaMineta : MonoBehaviour
+public class Vigneta : MonoBehaviour
 {
 
     public moveToAnotherSide JumpMamba;
