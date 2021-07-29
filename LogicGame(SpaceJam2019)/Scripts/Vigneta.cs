@@ -12,7 +12,7 @@ public class Vigneta : MonoBehaviour
 
     Vignette vigneta;
     PostProcessVolume volume;
-    // Start is called before the first frame update
+    // Start is called before the first frame update f
     void Start()
     {
         volume = gameObject.GetComponent<PostProcessVolume>();
